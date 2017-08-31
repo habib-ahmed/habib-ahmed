@@ -1,0 +1,90 @@
+/* ==========================
+	default CSS 
+============================= */
+html,
+body {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	height: 100%;
+}
+body {
+    font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px;
+    font-weight: 700;
+	font-family: sans-serif;
+}
+p {margin: 0 0 15px;}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.p80 {padding: 80px 0;}
+
+
+/* ==========================
+	Section CSS 
+============================= */
+.section-title {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}  
+
+
+.contact-us-form {
+    font-size: 17px;
+    font-weight: 400;
+}
+p.form-element {
+    position: relative;
+}
+p.form-element label {
+    font-size: 15px;
+    left: 15px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 10px;
+}
+.contact-us-form input[type="text"], 
+.contact-us-form input[type="email"], 
+.contact-us-form textarea {
+    border: 1px solid #ddd;
+    font-size: 14px;
+    padding: 35px 15px 10px;
+    width: 100%;
+	transition: .2s;
+}
+.contact-us-form input[type="text"]:focus, 
+.contact-us-form input[type="email"]:focus, 
+.contact-us-form textarea:focus {
+	background-color: #F0F0F0;
+}
+.contact-us-form input[type="submit"] {
+    background-color: #f00;
+    border: 0 none;
+    border-radius: 5px;
+    color: #fff;
+    float: right;
+    padding: 10px 20px;
+}
+p.small-text {
+    font-size: 14px;
+    margin: 0;
+    padding: 13px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
