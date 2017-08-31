@@ -1,0 +1,106 @@
+/* Medium Layout: 992px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.main-menu ul li a {
+		padding: 40px 10px;
+	}
+	.header-area.header-sticky .main-menu ul li a {
+		padding: 28px 10px;
+	}
+	.testimonial-text {
+		max-width: 260px;
+	}
+	.testimonial-img {
+		margin-top:45px;
+	}
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px)) { 
+   
+}
+
+/* Tablet & Mobile Layout: 991px & 320px */
+@media only screen and (max-width: 991px) {
+   .tablet-mt-50 {margin-top: 50px;}
+   .header-area {
+	    position: static;
+	}
+   .mean-bar {
+	    margin: 0 0 20px;
+	    opacity: 1;
+	}
+	.mean-bar::after {
+		color: #fff;
+		content: "Menu";
+		font-size: 20px;
+		font-weight: 700;
+		left: 20px;
+		position: absolute;
+		text-transform: uppercase;
+		top: 10px;
+	}
+	.header-sticky .mean-bar {
+	   margin-top: 10px;
+	}
+	.about-img::before {
+		right: 20.5%;
+	}
+	.blog-img {
+	    width: 60%;
+	    float: none;
+	    margin: 15px auto;
+	}
+	.copyright {
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+	.footer-icon {
+	   text-align: center;
+	}
+	.footer-icon a {
+	   margin: 0 5px;
+	}
+}
+
+/* Mobile Layout: 320px */
+@media only screen and (max-width: 767px) {
+	.mobile-mt-50 {margin-top: 50px;}
+	.single-slide-text h1 {
+	    font-size: 30px;
+	}
+	.single-portfoliio,
+	.single-team-item {
+		margin: 50px auto 0;
+		max-width: 400px;
+	}
+	.about-img::before {
+		display: none;
+	}
+	.testimonial-img {
+		float: none;
+		text-align:center;
+		margin: 0 auto 50px;
+	}
+	.testimonial-text {
+		float: none;
+		margin: auto;
+	}
+	.testimonial-text::before {
+		top: -25px;
+		transform: translateX(-50%); 
+		left: 50%;
+		border-top: 0 none;
+		border-bottom: 25px solid #f7f7f7;
+		border-left: 15px solid transparent;
+		border-right: 15px solid transparent;
+	}
+	
+	.contact-info:last-child {
+	    margin-bottom: 50px;
+	}
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
