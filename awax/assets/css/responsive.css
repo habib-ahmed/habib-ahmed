@@ -1,0 +1,157 @@
+/* Medium Layout: 1280px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+   .tab-border-0 {
+   		border: 0;
+   }
+   .call-action.last {
+   	border-right: 0;
+   }
+}
+
+/* Tablet & Mobile Layout: 991px & 320px */
+@media only screen and (max-width: 991px) {
+	.logo {
+	    display: none;
+	}
+	header {
+		background-color: #000;
+		position: relative;
+	}
+	.mobile-menu {		
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	.mobile-menu:before {
+	  background-color: #000;
+	  content: "";
+	  height: 60px;
+	  left: 0;
+	  position: absolute;
+	  top: 0;
+	  width: 100%;
+	  z-index: 2;
+	}
+	.mean-bar {
+	    background-color: transparent !important;
+	}
+	.mean-bar:before {
+		color: #B88B58;
+		content: "menu";
+		font-size: 25px;
+		font-weight: 700;
+		height: 100%;
+		left: 25px;
+		position: absolute;
+		text-transform: uppercase;
+		top: 10px;
+		width: 15%;
+	}
+	.mean-container a.meanmenu-reveal {
+	    right: 40px !important;
+	}
+	.mean-bar .meanmenu-reveal::after {
+	  color: #999;
+	  content: "";
+	  font-family: fontawesome;
+	  font-size: 20px;
+	  height: 100%;
+	  position: absolute;
+	  right: -30px;
+	  top: 18px;
+	  width: 100%;
+	}
+	.mean-bar span {
+	    background-color: #b88b58 !important;
+	    height: 5px !important;
+	    margin-top: 5px !important;
+	    width: 30px !important;
+	}
+	.mobile-logo {
+	    display: block;
+	}
+	.mobile-logo a {
+	    left: 50%;
+	    margin-left: -45px;
+	    padding: 8px;
+	    position: absolute;
+	    z-index: 9999999;
+	}
+	.mobile-logo a img {
+	    width: 85%;
+	}
+
+	.mean-container .mean-nav {
+	  background-color: #000;
+	  float: right;
+	  margin-top: 56px;
+	  width: 300px;
+	}
+	.mean-container .mean-nav ul {
+ 		padding: 15px 0 0;
+	}
+	.mean-container .mean-nav ul li.mean-last {
+	    margin-bottom: 15px;
+	}
+	.mean-container .mean-nav ul li a {
+	  border: 0 none;
+	  padding: 8px 45px;
+	  font-weight: 500;
+	}
+	.mean-container .mean-nav ul li a:hover {
+		background: transparent !important;
+		color: #B68C5A;
+	}
+
+	.about-text {
+	    text-align: center;
+	}
+	.footer-text,
+ 	.subscribe-form  {
+	    margin-top: 50px;
+	}
+
+
+}
+
+/* Mobile Layout: 320px */
+@media only screen and (max-width: 767px) {
+	.call-action.last,
+	.call-action {
+	    border: 0 none;
+	}
+	.slider-content h2 {
+	    font-size: 30px;
+	}
+	.slider-content p {
+	    font-size: 18px;
+	}
+	.portfolio-filter li {
+	    border: 0 none;
+	    font-size: 12px;
+	    padding: 10px 7px;
+	}
+	.single-team-item {
+	    padding: 30px 15px;
+	}
+	.social-links li {
+	    margin: 0 5px;
+	}
+	.social-links .tell-about {
+	    display: block;
+	    margin-bottom: 15px;
+	}
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	ul.portfolio-filter li {
+		padding: 10px 5px;
+	}
+}
